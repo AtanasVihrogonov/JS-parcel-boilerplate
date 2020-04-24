@@ -1,0 +1,33 @@
+{
+  "name": "js-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtanasVihrogonov/JS-parcel-boilerplate.git"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Atanas Vihrogonov <Vihrogonov@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
