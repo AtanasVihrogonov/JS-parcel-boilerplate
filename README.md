@@ -21,3 +21,12 @@ Build assets for production
 ```
 npm run build
 ```
+## Contact
+
+
+> Created by [A.Vihrogonov] [Vihrogonov@protonmail.com] - feel free to contact me!
+
+
+### License
+
+This project is licensed under the MIT License
