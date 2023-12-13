@@ -28,6 +28,6 @@
     "sass": "^1.26.5"
   },
   "dependencies": {
-    "axios": "^0.21.3"
+    "axios": "^1.6.0"
   }
 }
